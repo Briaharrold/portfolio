@@ -13,7 +13,6 @@ import pokeDex from "../../public/assets/Image 2-5-24 at 8.47 AM.jpg";
 import htmlIcon from "../../public/assets/html-1 copy 2.png";
 import matIcon from "../../public/assets/material.webp";
 import bootIcon from "../../public/assets/bs.webp";
-
 import reactIcon from "../../public/assets/react.webp";
 
 import flowbiteIcon from "../../public/assets/flowbite.webp";
@@ -29,17 +28,13 @@ export default function Home() {
           <Navbar.Brand as={Link} href="">
             <span className="self-center whitespace-nowrap text-xl font-semibold">
               {" "}
-              <Image
-                src={name.src}
-                className="w-72 saturate-200"
-                alt="Logo"
-              />
+              <Image src={name.src} className="w-72 saturate-200" alt="Logo" />
             </span>
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="text-end">
             <Navbar.Link
-              href="#"
+              href="&#39;#&#39;"
               className="text-black text-xl hover:!text-purple-400 hover:underline decoration-wavy underline-offset-8   "
             >
               About
@@ -86,30 +81,62 @@ export default function Home() {
                   <div>
                     <h1 className="text-center text-2xl">Frameworks:</h1>
                     <div className=" flex flex-row flex-wrap gap-3 pr-2   pb-5 lg:pb-0 lg:pt-2 pt-5 ">
-                      <Image src={bootIcon.src} alt="Bootstrap Icon" className="h-8"/>
+                      <Image
+                        src={bootIcon.src}
+                        alt="Bootstrap Icon"
+                        className="h-8"
+                      />
 
-                      <Image src={tailIcon.src} alt="Tailwind Icon" className="h-8 hover:"/>
+                      <Image
+                        src={tailIcon.src}
+                        alt="Tailwind Icon"
+                        className="h-8 hover:"
+                      />
                     </div>
                   </div>
                   <div>
                     <h1 className="text-center text-2xl ">Libraries:</h1>
                     <div className=" flex flex-row flex-wrap gap-3 pr-2 pb-5 lg:pb-0 lg:pt-2 pt-5">
-                      <Image src={reactIcon.src} alt="React Icon" className="h-8"/>
+                      <Image
+                        src={reactIcon.src}
+                        alt="React Icon"
+                        className="h-8"
+                      />
 
-                      <Image src={flowbiteIcon.src} alt="Flowbite Icon" className="h-8"/>
+                      <Image
+                        src={flowbiteIcon.src}
+                        alt="Flowbite Icon"
+                        className="h-8"
+                      />
 
-                      <Image src={matIcon.src} alt="Material IO Icon" className="h-8"/>
+                      <Image
+                        src={matIcon.src}
+                        alt="Material IO Icon"
+                        className="h-8"
+                      />
                     </div>
                   </div>
                   <div>
                     <h1 className="text-center text-2xl ">Languages:</h1>
                     <div className=" flex flex-row flex-wrap gap-3 pr-2  pb-5 lg:pb-0 lg:pt-2 pt-5">
-                      <Image src={jsIcon.src} alt=" Javascript Icon" className="h-8"/>
+                      <Image
+                        src={jsIcon.src}
+                        alt=" Javascript Icon"
+                        className="h-8"
+                      />
 
-                      <Image src={tsIcon.src} alt="Typescript Icon" className="h-8"/>
+                      <Image
+                        src={tsIcon.src}
+                        alt="Typescript Icon"
+                        className="h-8"
+                      />
 
-                      <Image src={CIcon.src} alt="C# Icon" className="h-8"/>
-                      <Image src={htmlIcon.src} alt="Html icon" className="h-8"/>
+                      <Image src={CIcon.src} alt="C# Icon" className="h-8" />
+                      <Image
+                        src={htmlIcon.src}
+                        alt="Html icon"
+                        className="h-8"
+                      />
                     </div>
                   </div>
                 </div>
@@ -117,7 +144,7 @@ export default function Home() {
             </div>
             <div className="order-first lg:order-2 flex justify-center pt-7 pb-7">
               <Image
-              alt = "Bria's Head Shoot photo"
+                alt="Bria's Head Shoot photo"
                 src={headShoots.src}
                 className=" border-indigo-500 border-4 h-80 w-80 object-cover rounded-full "
               />
@@ -145,7 +172,11 @@ export default function Home() {
                   />
                 )}
               >
-                <a href="pokemonremake2.vercel.app"  target="_blank" rel="noopener noreferrer"  className="text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white hover:!text-purple-400 cursor-pointer  hover:underline  underline-offset-8">
+                <a
+                  href="https://pokemonremake2.vercel.app"
+                 
+                  className="text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white hover:!text-purple-400 cursor-pointer  hover:underline  underline-offset-8"
+                >
                   PokeDex
                 </a>
                 <p className="font-normal text-gray-700 dark:text-gray-400"></p>
@@ -161,12 +192,14 @@ export default function Home() {
                     className="rounded-xl"
                     src={weatherApp.src}
                     alt="image 1"
-                  
-                    
                   />
                 )}
               >
-                <a  href="weatherapp-eta-tan.vercel.app"  target="_blank" rel="noopener noreferrer" className="text-2xl text-center font-bold tracking-tight cursor-pointer text-gray-900 dark:text-white hover:!text-purple-400  hover:underline  underline-offset-8">
+                <a
+                  href="https://weatherapp-eta-tan.vercel.app"
+                
+                  className="text-2xl text-center font-bold tracking-tight cursor-pointer text-gray-900 dark:text-white hover:!text-purple-400  hover:underline  underline-offset-8"
+                >
                   Weather Application
                 </a>
                 <p className="font-normal text-gray-700 dark:text-gray-400"></p>
