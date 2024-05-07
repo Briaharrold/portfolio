@@ -5,20 +5,20 @@
 
 
 @font-face {
-  font-family: 'Gruppo';
-  src: url('../../public/assets/Fonts/Gruppo/Gruppo-Regular.ttf');
+  font-family: "Gruppo";
+  src: url("../../public/assets/Fonts/Gruppo/Gruppo-Regular.ttf");
   font-weight: 100 900;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Josefin';
-  src: url('../../public/assets/Fonts/Josefin_Sans/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf');
+  font-family: "Josefin";
+  src: url("../../public/assets/Fonts/Josefin_Sans/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf");
   font-weight: 100 900;
   font-style: normal;
 }
 .gFont{
-  font-family: 'Gruppo',sans-serif;
+  font-family: "Gruppo",sans-serif;
  }
  .jFont{
-  font-family: 'Josefin',sans-serif;
+  font-family: "Josefin",sans-serif;
  }
