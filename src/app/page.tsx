@@ -28,7 +28,7 @@ export default function Home() {
           <Navbar.Brand as={Link} href="">
             <span className="self-center whitespace-nowrap text-xl font-semibold">
               {" "}
-              <Image src={name.src} className="w-72 saturate-200" alt="Logo" />
+              <img src={name.src} className="w-72 saturate-200" alt="Logo" />
             </span>
           </Navbar.Brand>
           <Navbar.Toggle />
@@ -50,7 +50,7 @@ export default function Home() {
               className="text-black text-xl mr-0 lg:mr-20 hover:!text-purple-400  hover:underline decoration-wavy underline-offset-8"
               href="#letsConnect"
             >
-              Let's Connect
+              Lets Connect
             </Navbar.Link>
           </Navbar.Collapse>
         </Navbar>
@@ -58,7 +58,7 @@ export default function Home() {
           <div className="grid grid-flow-col-12 lg:grid-flow-col  flex-wrap  gap-5 bg-purple-300  rounded-3xl mx-0 lg:mx-24 px-0 py-0 lg:px-10 lg:py-10  border-purple-100 border-4">
             <div className="px-10">
               <p className="text-black text-5xl text-center jFont  lg:text-start pb-5 ">
-                Hey! I'm Bria.
+                Hey! Im Bria.
               </p>
               <p className="text-white text-bold   text-3xl text-center  jFont   lg:text-start pb-5 ">
                 Junior Web Developer
@@ -81,13 +81,13 @@ export default function Home() {
                   <div>
                     <h1 className="text-center text-2xl">Frameworks:</h1>
                     <div className=" flex flex-row flex-wrap gap-3 pr-2   pb-5 lg:pb-0 lg:pt-2 pt-5 ">
-                      <Image
+                      <img
                         src={bootIcon.src}
                         alt="Bootstrap Icon"
                         className="h-8"
                       />
 
-                      <Image
+                      <img
                         src={tailIcon.src}
                         alt="Tailwind Icon"
                         className="h-8 hover:"
@@ -97,19 +97,19 @@ export default function Home() {
                   <div>
                     <h1 className="text-center text-2xl ">Libraries:</h1>
                     <div className=" flex flex-row flex-wrap gap-3 pr-2 pb-5 lg:pb-0 lg:pt-2 pt-5">
-                      <Image
+                      <img
                         src={reactIcon.src}
                         alt="React Icon"
                         className="h-8"
                       />
 
-                      <Image
+                      <img
                         src={flowbiteIcon.src}
                         alt="Flowbite Icon"
                         className="h-8"
                       />
 
-                      <Image
+                      <img
                         src={matIcon.src}
                         alt="Material IO Icon"
                         className="h-8"
@@ -119,20 +119,20 @@ export default function Home() {
                   <div>
                     <h1 className="text-center text-2xl ">Languages:</h1>
                     <div className=" flex flex-row flex-wrap gap-3 pr-2  pb-5 lg:pb-0 lg:pt-2 pt-5">
-                      <Image
+                      <img
                         src={jsIcon.src}
                         alt=" Javascript Icon"
                         className="h-8"
                       />
 
-                      <Image
+                      <img
                         src={tsIcon.src}
                         alt="Typescript Icon"
                         className="h-8"
                       />
 
-                      <Image src={CIcon.src} alt="C# Icon" className="h-8" />
-                      <Image
+                      <img src={CIcon.src} alt="C# Icon" className="h-8" />
+                      <img
                         src={htmlIcon.src}
                         alt="Html icon"
                         className="h-8"
@@ -143,7 +143,7 @@ export default function Home() {
               </div>
             </div>
             <div className="order-first lg:order-2 flex justify-center pt-7 pb-7">
-              <Image
+              <img
                 alt="Bria's Head Shoot photo"
                 src={headShoots.src}
                 className=" border-indigo-500 border-4 h-80 w-80 object-cover rounded-full "
@@ -163,7 +163,7 @@ export default function Home() {
               <Card
                 className="max-w-sm px-5 py-5 mt-5 mb-5"
                 renderImage={() => (
-                  <Image
+                  <img
                     width={500}
                     height={500}
                     className="rounded-xl"
@@ -174,7 +174,8 @@ export default function Home() {
               >
                 <a
                   href="https://pokemonremake2.vercel.app"
-                 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white hover:!text-purple-400 cursor-pointer  hover:underline  underline-offset-8"
                 >
                   PokeDex
@@ -186,7 +187,7 @@ export default function Home() {
               <Card
                 className="max-w-sm px-5 py-5 mt-5 mb-5"
                 renderImage={() => (
-                  <Image
+                  <img
                     width={500}
                     height={500}
                     className="rounded-xl"
@@ -197,7 +198,8 @@ export default function Home() {
               >
                 <a
                   href="https://weatherapp-eta-tan.vercel.app"
-                
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-2xl text-center font-bold tracking-tight cursor-pointer text-gray-900 dark:text-white hover:!text-purple-400  hover:underline  underline-offset-8"
                 >
                   Weather Application
@@ -209,7 +211,7 @@ export default function Home() {
               <Card
                 className="max-w-sm px-5 py-5 mt-5 mb-5"
                 renderImage={() => (
-                  <Image
+                  <img
                     width={500}
                     height={500}
                     className="rounded-xl"
@@ -231,7 +233,7 @@ export default function Home() {
         <div className="flex flex-col-2 justify-between">
           <div>
             <p id="letsConnect" className=" text-4xl font-bold underline">
-              Let's Connect
+              Lets Connect
             </p>
             <p>Bria Harrold</p>
             <p>209-292-1954</p>
