@@ -29,10 +29,10 @@ export default function Home() {
           <Navbar.Brand as={Link} href="">
             <span className="self-center whitespace-nowrap text-xl font-semibold">
               {" "}
-              <img
+              <Image
                 src={name.src}
                 className="w-72 saturate-200"
-                alt="Flowbite React Logo"
+                alt="Logo"
               />
             </span>
           </Navbar.Brand>
@@ -86,40 +86,41 @@ export default function Home() {
                   <div>
                     <h1 className="text-center text-2xl">Frameworks:</h1>
                     <div className=" flex flex-row flex-wrap gap-3 pr-2   pb-5 lg:pb-0 lg:pt-2 pt-5 ">
-                      <img src={bootIcon.src} className="h-8"></img>
+                      <Image src={bootIcon.src} alt="Bootstrap Icon" className="h-8"/>
 
-                      <img src={tailIcon.src} className="h-8 hover:"></img>
+                      <Image src={tailIcon.src} alt="Tailwind Icon" className="h-8 hover:"/>
                     </div>
                   </div>
                   <div>
                     <h1 className="text-center text-2xl ">Libraries:</h1>
                     <div className=" flex flex-row flex-wrap gap-3 pr-2 pb-5 lg:pb-0 lg:pt-2 pt-5">
-                      <img src={reactIcon.src} className="h-8"></img>
+                      <Image src={reactIcon.src} alt="React Icon" className="h-8"/>
 
-                      <img src={flowbiteIcon.src} className="h-8"></img>
+                      <Image src={flowbiteIcon.src} alt="Flowbite Icon" className="h-8"/>
 
-                      <img src={matIcon.src} className="h-8"></img>
+                      <Image src={matIcon.src} alt="Material IO Icon" className="h-8"/>
                     </div>
                   </div>
                   <div>
                     <h1 className="text-center text-2xl ">Languages:</h1>
                     <div className=" flex flex-row flex-wrap gap-3 pr-2  pb-5 lg:pb-0 lg:pt-2 pt-5">
-                      <img src={jsIcon.src} className="h-8"></img>
+                      <Image src={jsIcon.src} alt=" Javascript Icon" className="h-8"/>
 
-                      <img src={tsIcon.src} className="h-8"></img>
+                      <Image src={tsIcon.src} alt="Typescript Icon" className="h-8"/>
 
-                      <img src={CIcon.src} className="h-8"></img>
-                      <img src={htmlIcon.src} className="h-8"></img>
+                      <Image src={CIcon.src} alt="C# Icon" className="h-8"/>
+                      <Image src={htmlIcon.src} alt="Html icon" className="h-8"/>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="order-first lg:order-2 flex justify-center pt-7 pb-7">
-              <img
+              <Image
+              alt = "Bria's Head Shoot photo"
                 src={headShoots.src}
                 className=" border-indigo-500 border-4 h-80 w-80 object-cover rounded-full "
-              ></img>
+              />
             </div>
           </div>
         </div>
