@@ -34,7 +34,7 @@ export default function Home() {
           <Navbar.Toggle />
           <Navbar.Collapse className="text-end">
             <Navbar.Link
-              href="&#39;#&#39;"
+              href=""
               className="text-black text-xl hover:!text-purple-400 hover:underline decoration-wavy underline-offset-8   "
             >
               About
@@ -64,13 +64,10 @@ export default function Home() {
                 Junior Web Developer
               </p>
               <p className="text-black text-xl jFont  ">
-                I am currently pursuing my passion for software engineering at
-                CodeStack Academy, where I have been immersed in a comprehensive
-                curriculum since September. My journey in this field reflects my
-                dedication to mastering the skills necessary to thrive in the
-                dynamic world of technology. I am excited to apply my knowledge
-                and creativity to develop innovative solutions that make a
-                positive impact.
+                I've been currently attending school at CodeStack Academy since September
+                2023, to futher my knowledge about software engineering. I'm
+                excited to translate my knowledge and creative ideas into
+                practical applications in the workforce.
               </p>
               <div className="bg-red-300 px-2 py-2 mt-4 mb-4 lg:mt-2 lg:mb-0 rounded-lg">
                 <h1 className="text-center text-4xl pt-2 pb-2 underline  ">
@@ -132,11 +129,7 @@ export default function Home() {
                       />
 
                       <img src={CIcon.src} alt="C# Icon" className="h-8" />
-                      <img
-                        src={htmlIcon.src}
-                        alt="Html icon"
-                        className="h-8"
-                      />
+                      <img src={htmlIcon.src} alt="Html icon" className="h-8" />
                     </div>
                   </div>
                 </div>
@@ -221,7 +214,7 @@ export default function Home() {
                 )}
               >
                 <a className="text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white cursor-pointer hover:!text-purple-400  hover:underline  underline-offset-8">
-                  Weather Application
+                  Tip Calculator Application
                 </a>
                 <p className="font-normal text-gray-700 dark:text-gray-400"></p>
               </Card>
