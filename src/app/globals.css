@@ -22,3 +22,8 @@
  .jFont{
   font-family: "Josefin",sans-serif;
  }
+ .textOutline {
+ color: white;
+	-webkit-text-stroke: 1px #F8F8F8;
+	text-shadow: 0px 1px 4px #23430C;
+ }

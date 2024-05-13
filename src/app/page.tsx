@@ -14,16 +14,16 @@ import htmlIcon from "../../public/assets/html-1 copy 2.png";
 import matIcon from "../../public/assets/material.webp";
 import bootIcon from "../../public/assets/bs.webp";
 import reactIcon from "../../public/assets/react.webp";
-
+import strikeshoe from"../../public/assets/Screenshot 2024-05-13 at 2.07.22 PM.png"
 import flowbiteIcon from "../../public/assets/flowbite.webp";
-
+import SMD from "../../public/SMDpicture.png"
 import tailIcon from "../../public/assets/tw.webp";
 import CIcon from "../../public/assets/c.webp";
 import headShoots from "../../public/assets/Bria_Harrold-Hill_CSAS6_Headshots (1).jpeg";
 export default function Home() {
   return (
     <>
-      <div className=" text-black  bg-purple-200 jFont">
+      <div className=" text-black  bg-orange-200 jFont">
         <Navbar fluid rounded className=" bg-white ">
           <Navbar.Brand as={Link} href="">
             <span className="self-center whitespace-nowrap text-xl font-semibold">
@@ -154,12 +154,12 @@ export default function Home() {
           <div className="flex flex-wrap justify-evenly pb-5">
             <div className="">
               <Card
-                className="max-w-sm px-5 py-5 mt-5 mb-5"
+                className="max-w-sm px-5 py-5  mt-5 mb-5"
                 renderImage={() => (
                   <img
                     width={500}
-                    height={500}
-                    className="rounded-xl"
+                   
+                    className="rounded-xl  h-60 "
                     src={pokeDex.src}
                     alt="image 1"
                   />
@@ -181,21 +181,21 @@ export default function Home() {
                 className="max-w-sm px-5 py-5 mt-5 mb-5"
                 renderImage={() => (
                   <img
-                    width={500}
-                    height={500}
-                    className="rounded-xl"
-                    src={weatherApp.src}
+                    width={342}
+                    height={235}
+                    className="rounded-xl h-60"
+                    src={strikeshoe.src}
                     alt="image 1"
                   />
                 )}
               >
                 <a
-                  href="https://weatherapp-eta-tan.vercel.app"
+                  href=" https://full-stack-strike-showdown.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-2xl text-center font-bold tracking-tight cursor-pointer text-gray-900 dark:text-white hover:!text-purple-400  hover:underline  underline-offset-8"
                 >
-                  Weather Application
+                 Strike Showdown
                 </a>
                 <p className="font-normal text-gray-700 dark:text-gray-400"></p>
               </Card>
@@ -207,14 +207,15 @@ export default function Home() {
                   <img
                     width={500}
                     height={500}
-                    className="rounded-xl"
-                    src={weatherApp.src}
+                    className="rounded-xl  h-60"
+                    src={SMD.src}
                     alt="image 1"
                   />
                 )}
               >
-                <a className="text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white cursor-pointer hover:!text-purple-400  hover:underline  underline-offset-8">
-                  Tip Calculator Application
+                <a className="text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white cursor-pointer hover:!text-purple-400  hover:underline  underline-offset-8" target="_blank"
+                  rel="noopener noreferrer" href="">
+                 Social Media Dashboard
                 </a>
                 <p className="font-normal text-gray-700 dark:text-gray-400"></p>
               </Card>
@@ -232,10 +233,11 @@ export default function Home() {
             <p>209-292-1954</p>
             <h1>Briaharrold@gmail.com</h1>
           </div>
-          <div>
-            <button> Github</button>
-            <button> Github</button>
-            <button> Github</button>
+          <div className="flex flex-col gap-5">
+            <button><a href="https://github.com/Briaharrold"></a> Github</button>
+            <div>
+        <a href="https://www.linkedin.com/in/bria-harrold-975379201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"></a> Linked in
+        </div>
           </div>
         </div>
       </div>
