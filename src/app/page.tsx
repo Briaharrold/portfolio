@@ -8,6 +8,7 @@ import logo from "../../public/assets/New Project.png";
 import name from "../../public/assets/Bria.png";
 import tsIcon from "../../public/assets/ts.webp";
 import weatherApp from "../../public/assets/WetherApp.png";
+import git from"../../public/assets/github-icon-2048x2048-eyd5tyuo.png"
 import jsIcon from "../../public/assets/js.webp";
 import pokeDex from "../../public/assets/Image 2-5-24 at 8.47 AM.jpg";
 import htmlIcon from "../../public/assets/html-1 copy 2.png";
@@ -16,7 +17,7 @@ import bootIcon from "../../public/assets/bs.webp";
 import reactIcon from "../../public/assets/react.webp";
 import strikeshoe from"../../public/assets/Screenshot 2024-05-13 at 2.07.22 PM.png"
 import flowbiteIcon from "../../public/assets/flowbite.webp";
-import SMD from "../../public/SMDpicture.png"
+import SMD from "../../public/assets/Advice.png"
 import tailIcon from "../../public/assets/tw.webp";
 import CIcon from "../../public/assets/c.webp";
 import headShoots from "../../public/assets/Bria_Harrold-Hill_CSAS6_Headshots (1).jpeg";
@@ -64,8 +65,8 @@ export default function Home() {
                 Junior Web Developer
               </p>
               <p className="text-black text-xl jFont  ">
-                I've been currently attending school at CodeStack Academy since September
-                2023, to futher my knowledge about software engineering. I'm
+                Ive been currently attending school at CodeStack Academy since September
+                2023, to futher my knowledge about software engineering. Im
                 excited to translate my knowledge and creative ideas into
                 practical applications in the workforce.
               </p>
@@ -214,8 +215,8 @@ export default function Home() {
                 )}
               >
                 <a className="text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white cursor-pointer hover:!text-purple-400  hover:underline  underline-offset-8" target="_blank"
-                  rel="noopener noreferrer" href="">
-                 Social Media Dashboard
+                  rel="noopener noreferrer" href="https://advicegenerator-xi.vercel.app/">
+                 Advice Genorator
                 </a>
                 <p className="font-normal text-gray-700 dark:text-gray-400"></p>
               </Card>
@@ -230,13 +231,23 @@ export default function Home() {
               Lets Connect
             </p>
             <p>Bria Harrold</p>
-            <p>209-292-1954</p>
             <h1>Briaharrold@gmail.com</h1>
           </div>
-          <div className="flex flex-col gap-5">
-            <button><a href="https://github.com/Briaharrold"></a> Github</button>
+          <div className="flex flex-col gap-5 justify-center">
+          <a className="text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white cursor-pointer hover:!text-black  hover:underline  underline-offset-8" target="_blank"
+                  rel="noopener noreferrer" href="https://github.com/Briaharrold">
+         GitHub
+                </a>
             <div>
-        <a href="https://www.linkedin.com/in/bria-harrold-975379201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"></a> Linked in
+              <div>
+              {/* <img src={git.src} className="h-14" alt="github link"></img> */}
+            <a className="text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white cursor-pointer hover:!text-black  hover:underline  underline-offset-8" target="_blank"
+                  rel="noopener noreferrer" href="https://www.linkedin.com/in/bria-harrold-975379201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+         LinkedIn
+                </a>
+                <h1 className="text-center"> </h1> 
+                </div>
+
         </div>
           </div>
         </div>
