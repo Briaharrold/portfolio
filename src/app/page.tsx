@@ -6,7 +6,7 @@ import PageContentComponent from "@/Components/PageContentComponent";
 export default function Home() {
   return (
     <>
-      <div className=" text-black  bg-orange-200 jFont">
+      <div className=" text-black  bg-purple-950 jFont">
       <NavbarComponent/>
       <PageContentComponent/>
        <CardsComponent/>

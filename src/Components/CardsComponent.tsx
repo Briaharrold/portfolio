@@ -8,7 +8,7 @@ const CardsComponent = () => {
     <>
       <div className="">
         <h1
-          className="text-center pb-5 text-5xl text underline"
+          className="text-center pb-5 text-5xl text underline text-white"
           id="myprodjects"
         >
           Projects

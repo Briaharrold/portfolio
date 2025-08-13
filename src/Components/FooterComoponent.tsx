@@ -4,14 +4,14 @@ import React from 'react'
 const FooterComoponent = () => {
   return (
    <>
-    <div className="bg-red-300 px-10 py-10 jFont">
+    <div className="bg-orange-100 px-10 py-10 jFont">
         <div className="flex flex-col-2 justify-between">
           <div>
             <p id="letsConnect" className=" text-4xl font-bold underline">
               Lets Connect
             </p>
             <p>Bria Harrold</p>
-            <p>209</p>
+            <p>209-622-3598</p>
             <h1>Briaharrold@gmail.com</h1>
           </div>
           <div className="flex flex-col gap-5 justify-center">

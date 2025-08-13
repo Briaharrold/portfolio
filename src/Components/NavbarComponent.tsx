@@ -11,7 +11,7 @@ const NavbarComponent = () => {
           <Navbar.Brand as={Link} href="">
             <span className="self-center whitespace-nowrap text-xl font-semibold">
               {" "}
-              <img src={name.src} className="w-72 saturate-200" alt="Logo" />
+              <img src={name.src} className="w-24 rounded-full saturate-200" alt="Logo" />
             </span>
           </Navbar.Brand>
           <Navbar.Toggle />
